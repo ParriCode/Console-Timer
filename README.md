@@ -10,10 +10,10 @@ A little python console program with the capacity of create, modify and save per
 ![](https://github.com/ParriCode/Console-Timer/blob/main.py/images/img2.png)
 
 At first seen you have a list of commands.
- Let see some commands examples.
+ Let see some examples commands.
 ### help
  The command **help** show a menu with a description of each command
-![help_image](https://github.com/ParriCode/Console-Timer/blob/main.py/images/img3.png)
+![help_image](https://github.com/ParriCode/Console-Timer/blob/main.py/images/img.png)
 
 ### new [new timer name]
  The command **new** create a new timer , and it is save with 0 seconds and the date of the day
@@ -32,10 +32,15 @@ start all
 ### see [startet timer_name]
  The command **see** show a menu of a started timer with the diferents time measurements
  ![new image](https://github.com/ParriCode/Console-Timer/blob/main.py/images/img13.png)
+ 
+  _The menu has two parts , the left numbers is the time since we started the timer for the last time_
+  _The right part is the sum of every time that the timer was started _
 ### save [saved timer_name]
- The command **save** save an exist and started timer with the time that has passed since it started
+ The command **save** saves an exist and started timer with the time that has passed since it started
 ### exist [timer_name]
  The command **exist** check if the called name is saved in the data file, if exist return True, else return False.
+
+ 
  Also you can write **exist all**, this command return a list of existing timers 
  ```
 exist all
