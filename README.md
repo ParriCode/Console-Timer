@@ -7,7 +7,7 @@ This software is developed on Ubuntu 18.04 if you are using windows probably the
 Its a Console program , all you need is the console.
 ## How to use
 Fist you must tun the program, after that the program will be init.
-
+![mi imagen](https://github.com/ParriCode/Console-Timer/tree/main.py/images/img1.png)
 You have some commands for use the console program.
 
 ## contact
