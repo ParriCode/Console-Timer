@@ -184,7 +184,7 @@ Temporizadores existentes
 ______________________________________________________________________
 comando : "exist [nombre,all]"   Muestra que contadores existen
 comando : "new [nombre]"         Crea un nuevo temporizador y lo guarda 
-comando : "init [nombre]"        Inicia un temporizador ya creado
+comando : "start [nombre]"        Inicia un temporizador ya creado
 comando : "save [nombre]"		 guarda el programa
 comando : "stop [nombre]"        Para un temporizador ya iniciado
 comando : "delete [nombre]"      Borra un temporizador para siempre
@@ -220,7 +220,7 @@ def app():
         try: subcommand = command[2:]
         except: pass
         command = command[0]
-        if command == "init" or command == "on":
+        if command == "start" or command == "on":
             try:
                # print("inicialize "+dictcsv[timer_name]["name"])
                 console.ConsoleInitTimer(timer_name)
